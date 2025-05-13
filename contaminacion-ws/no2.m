@@ -12,3 +12,5 @@ function z = no2(x, a)
   z = uint8(z);
 
 end
+
+

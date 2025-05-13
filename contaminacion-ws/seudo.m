@@ -2,7 +2,7 @@
 
 function z = seudo(x)
 
-  UMBRAL = 128;
+  UMBRAL = 192;
 
   [F, C] = size(x);
   x = double(x);
@@ -20,7 +20,6 @@ function z = seudo(x)
         end
       end
     end
-    f
   end
 
   z = uint8(z);
